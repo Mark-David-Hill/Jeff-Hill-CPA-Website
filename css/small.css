@@ -1,0 +1,92 @@
+/* 12 column grid system is a good setup? */
+
+/* prevents the text size in web kit and microsoft browsers from changing when phone orientation is changed. */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/* Makes sure all browsers implement the box-model in the same way. Makes sure padding is added to the inside of an element and margin to the outside. */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Set basic font-family/weight for the whole body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* Normal default font size. */
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* ///// */
+/* ///// grid rules */
+/* ///// */
+
+/* makes sure every row stays below the content above it */
+.row {clear: both;}
+/* Makes them act like columns. */
+.column{float: left;}
+
+.small-12{width: 100%;}
+
+
+
+footer {
+    background-color: rgb(198, 199, 255);
+    font-size: 1.2rem;
+    margin-top: 20em;
+}
+footer h2 {
+    font-style: italic;
+    text-transform: uppercase;
+    /* Note- no left/right margin here. */
+    margin: 1rem 0 .3rem 0;
+}
+
+
+/* Inserts content after floated items and prevents the container from collapsing. */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*  */
+/*  */
+/* Not from layouts course */
+/*  */
+/*  */
+
+/* Should I include this? For nav bar things? */
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 3em;
+    background-color: rgb(198, 199, 255);
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 1.5em;
+    margin-right: 1em;
+}
+
+nav img {
+    width: 30%;
+    display: inline-block;
+}
+
+.nav-items {
+    float: right;
+}
