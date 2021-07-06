@@ -38,6 +38,38 @@ body {
 
 
 
+
+/*  */
+/* header rules */
+/*  */
+header {
+    background-color: rgb(198, 199, 255);
+}
+header img {
+    float:left;
+    height: 85px;
+    padding-right: 10px;
+}
+header h1, header h2 {
+    margin: 0;
+    /* bold weight */
+    font-weight: 300;
+    font-style: italic;
+}
+header h1 {
+    padding: .5rem 0 0 0;
+    font-size: 1.95rem;
+}
+header h2 {
+    padding: .2rem 0 0 0;
+    font-size: 1.05rem;
+}
+
+
+
+
+
+
 footer {
     background-color: rgb(198, 199, 255);
     font-size: 1.2rem;
@@ -60,6 +92,10 @@ footer h2 {
 
 
 
+
+
+
+
 /*  */
 /*  */
 /* Not from layouts course */
@@ -67,7 +103,9 @@ footer h2 {
 /*  */
 
 /* Should I include this? For nav bar things? */
-body, html {
+
+
+/* body, html {
     height: 100%;
     width: 100%;
 }
@@ -96,4 +134,4 @@ nav img {
 
 .nav-items {
     float: right;
-}
+} */

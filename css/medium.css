@@ -1,6 +1,14 @@
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
     
+    /* Increase size of header elements for medium size screens */
+    header h1 {font-size: 2rem;}
+    header h2 {font-size: 1.5rem;}
+    header img {height: 100px;}
+
+
+
+
 
     .medium-6 {width: 50%;}
 
