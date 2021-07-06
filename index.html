@@ -15,27 +15,30 @@
     <title>Home | Jeff Hill CPA</title>
 </head>
 <body>
-    <header class="clearfix">
-        <div class="row limited">
-            <section class="column small-12">
-                <img src="http://cp7.cpasitesolutions.com/~jeffhill/images/logo.png" alt="Jeff Hill CPA LLC">
-                <h1>Jeff Hill CPA</h1>
-                <h2>LLC</h2>
-            </section>
-        </div> <!-- end of row -->
-    </header>
-
-    <nav class="clearfix">
-        
-        <div class="nav-items">
-            <ul>
-                <li>Home</li>
-                <li>Services</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-    </nav>
+    <div class="navigation-container clearfix">
+        <header class="clearfix">
+            <div class="row limited">
+                <section class="column small-12">
+                    <img src="http://cp7.cpasitesolutions.com/~jeffhill/images/logo.png" alt="Jeff Hill CPA LLC">
+                    <!-- <h1>Jeff Hill CPA</h1>
+                    <h2>LLC</h2> -->
+                </section>
+            </div> <!-- end of row -->
+        </header>
+    
+        <nav class="clearfix">
+            <div class="row limited">
+                <button id="hamburgerBtn">&#9776;</button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div> <!-- end of row -->
+        </nav>
+    </div>
+    
 
     <main>
         <p>Content!</p>
@@ -60,5 +63,6 @@
         
         <p>Copyright © 2021, Jeff Hill CPA LLC. All Rights Reserved.</p>
     </footer>
+    <script src="js/menuToggle.js"></script>
 </body>
 </html>

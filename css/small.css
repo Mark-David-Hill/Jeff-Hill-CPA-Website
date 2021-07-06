@@ -43,7 +43,7 @@ body {
 /* header rules */
 /*  */
 header {
-    background-color: rgb(198, 199, 255);
+    background-color: rgb(236, 236, 255);
 }
 header img {
     float:left;
@@ -71,7 +71,8 @@ header h2 {
 
 
 footer {
-    background-color: rgb(198, 199, 255);
+    color: white;
+    background-color: rgb(106, 108, 255);;
     font-size: 1.2rem;
     margin-top: 20em;
 }
@@ -92,46 +93,33 @@ footer h2 {
 
 
 
+button#hamburgerBtn {
+    /* Removes the border and background of the button */
+    background: none;
+    border: none;
 
-
-
-
-/*  */
-/*  */
-/* Not from layouts course */
-/*  */
-/*  */
-
-/* Should I include this? For nav bar things? */
-
-
-/* body, html {
-    height: 100%;
-    width: 100%;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
 }
 
-nav {
-    width: 100%;
-    display: inline-block;
-    position: fixed;
-    z-index: 1;
-    margin-bottom: 3em;
-    background-color: rgb(198, 199, 255);
+nav {background-color: rgb(106, 108, 255);}
+nav ul {margin: 0; padding: 0;}
+nav li {list-style-type: none;}
+nav a {
+    display: block;
+    padding: .8rem 0;
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
 }
-
-
-nav ul li {
-    display: inline-block;
-    list-style-type: none;
-    margin-top: 1.5em;
-    margin-right: 1em;
+/* Shows where the user currently is on the nav bar (wayfinding). */
+nav li.active {
+    background-color: rgba(0,0,0,0.5);
 }
-
-nav img {
-    width: 30%;
-    display: inline-block;
-}
-
-.nav-items {
-    float: right;
-} */
+/* Darkens the button when hovered over. */
+nav a:hover {background-color: rgba(0,0,0,0.2);}
+/* Only if it has the open class, display the navigation items. */
+nav ul.open {display: block;}
+nav ul {display: none;}

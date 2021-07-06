@@ -5,5 +5,13 @@
     .large-3 {width: 25%;}
 
 
+    /* Get nav menu items to line up with the logo above on the left side. */
+    nav ul {margin-left: 2vw;}
+    /* Makes sure the menu uses the width of the text links. */
+    nav li {width: auto;}
+    /* Makes nav items smaller- don't need to be touched anymore. */
+    nav a {padding: .7rem 1rem;}
+
+
 
 } /* end of media query */
