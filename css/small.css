@@ -72,7 +72,7 @@ header h2 {
 
 footer {
     color: white;
-    background-color: rgb(106, 108, 255);;
+    background-color: rgb(136, 138, 252);
     font-size: 1.2rem;
     margin-top: 20em;
 }
@@ -104,7 +104,7 @@ button#hamburgerBtn {
     padding: 0 30px 0 2vw;
 }
 
-nav {background-color: rgb(106, 108, 255);}
+nav {background-color: rgb(136, 138, 252);}
 nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;}
 nav a {
@@ -123,3 +123,15 @@ nav a:hover {background-color: rgba(0,0,0,0.2);}
 /* Only if it has the open class, display the navigation items. */
 nav ul.open {display: block;}
 nav ul {display: none;}
+
+
+
+/* Photo by <a href="https://unsplash.com/@homajob?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Graham</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  
+/* Hero Image */
+main img {
+    /* Takes up the entire width of its container. */
+    width: 100%;
+    /* Keeps the image's original ratio (not stretched/squashed) */
+    height: auto;
+}
