@@ -1,2 +1,2 @@
 # Jeff-Hill-CPA-Website
-A website Jeff Hill CPA.
+A website for Jeff Hill CPA LLC.

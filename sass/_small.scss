@@ -1,4 +1,6 @@
-/* 12 column grid system is a good setup? */
+/* 12 column grid system is a good setup */
+
+/* Guideline for images: set the width and height in HTML as a ratio, then set the width in CSS to "100%" and the height to "auto" */
 
 /* prevents the text size in web kit and microsoft browsers from changing when phone orientation is changed. */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
