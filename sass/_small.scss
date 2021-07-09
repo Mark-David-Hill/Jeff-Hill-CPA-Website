@@ -1,4 +1,6 @@
-/* 12 column grid system is a good setup? */
+/* 12 column grid system is a good setup */
+
+/* Guideline for images: set the width and height in HTML as a ratio, then set the width in CSS to "100%" and the height to "auto" */
 
 /* prevents the text size in web kit and microsoft browsers from changing when phone orientation is changed. */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
@@ -12,11 +14,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* Set basic font-family/weight for the whole body */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     /* Normal default font size. */
     font-size: 16px;
     font-weight: 300;
 }
+
+
 
 /* ///// */
 /* ///// grid rules */
@@ -43,7 +47,7 @@ body {
 /* header rules */
 /*  */
 header {
-    background-color: rgb(236, 236, 255);
+    background-color: rgb(255, 255, 255);
 }
 header img {
     float:left;
@@ -66,15 +70,47 @@ header h2 {
 }
 
 
+main h1 {
+    color: rgb(78,122,166);
+    font-style: italic;
+    margin: .5rem 0 .1rem 0;
+    font-size: 2.5rem;
+}
+
+
+.labeled {position: relative;}
+
+
+.labeled h6, .labeled p {
+    position: absolute;
+    background-color: rgba(255,255,255,.7);
+    margin: 0;
+    width: 100%;
+    padding: .3rem 1rem;   
+}
+.labeled h6 {
+    /* line up at the top */
+    top: 0;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.labeled p {
+    /* line up at the bottom */
+    bottom: 0;
+    font-weight: 700;
+    color: #b00;
+}
+
+
 
 
 
 
 footer {
     color: white;
-    background-color: rgb(136, 138, 252);
+    background-color: rgb(48,108,158);
     font-size: 1.2rem;
-    margin-top: 20em;
+    /* margin-top: 20em; */
 }
 footer h2 {
     font-style: italic;
@@ -104,7 +140,7 @@ button#hamburgerBtn {
     padding: 0 30px 0 2vw;
 }
 
-nav {background-color: rgb(136, 138, 252);}
+nav {background-color: rgb(143,192,230);}
 nav ul {margin: 0; padding: 0;}
 nav li {list-style-type: none;}
 nav a {
@@ -116,7 +152,7 @@ nav a {
 }
 /* Shows where the user currently is on the nav bar (wayfinding). */
 nav li.active {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgb(48,108,158);
 }
 /* Darkens the button when hovered over. */
 nav a:hover {background-color: rgba(0,0,0,0.2);}
@@ -135,3 +171,20 @@ main img {
     /* Keeps the image's original ratio (not stretched/squashed) */
     height: auto;
 }
+
+/* Stop the logo from being wider than the screen on smaller screens. */
+.navigation-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {color: inherit;}
+
+#phoneButton {
+    display: none;
+}
+
+// .navigation-container img {
+//     width: 100%;
+//     height: auto;
+// }
