@@ -326,7 +326,13 @@ body {
   font-weight: 300; }
 
 .navigation-container a {
-  font-size: 20px; }
+  font-size: 20px;
+  color: white; }
+
+/* Stop the logo from being wider than the screen on smaller screens. */
+.navigation-container img {
+  max-width: 100%;
+  height: auto; }
 
 /* ///// */
 /* ///// grid rules */
@@ -405,14 +411,13 @@ main h1 {
 footer {
   color: white;
   background-color: #306c9e;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   /* margin-top: 20em; */ }
 
 footer h2 {
-  font-style: italic;
-  text-transform: uppercase;
   /* Note- no left/right margin here. */
-  margin: 1rem 0 .3rem 0; }
+  margin: 1rem 0 .3rem 0;
+  text-align: center; }
 
 /* Inserts content after floated items and prevents the container from collapsing. */
 .clearfix:after {
@@ -469,20 +474,11 @@ main img {
   /* Keeps the image's original ratio (not stretched/squashed) */
   height: auto; }
 
-/* Stop the logo from being wider than the screen on smaller screens. */
-.navigation-container img {
-  max-width: 100%;
-  height: auto; }
-
 a {
   color: inherit; }
 
 #phoneButton {
   display: none; }
-
-.navigation-container img {
-  width: 100%;
-  height: auto; }
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
@@ -499,6 +495,9 @@ a {
 
   .medium-6 {
     width: 50%; }
+
+  .medium-12 {
+    width: 100%; }
 
   /* don't display the hamburger button if not phone-size. */
   nav button {
@@ -519,6 +518,15 @@ a {
   /* Common for large size- 1200px or 1024px */
   .large-3 {
     width: 25%; }
+
+  .large-4 {
+    width: 33.3333333%; }
+
+  .large-6 {
+    width: 50%; }
+
+  .large-12 {
+    width: 100%; }
 
   /* Get nav menu items to line up with the logo above on the left side. */
   nav ul {
