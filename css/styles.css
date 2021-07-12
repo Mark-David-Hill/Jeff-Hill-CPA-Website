@@ -476,8 +476,7 @@ main img {
 
 article img {
   width: 200px;
-  height: auto;
-  float: left; }
+  height: auto; }
 
 a {
   color: inherit; }
