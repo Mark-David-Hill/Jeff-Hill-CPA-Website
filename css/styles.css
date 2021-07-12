@@ -474,6 +474,11 @@ main img {
   /* Keeps the image's original ratio (not stretched/squashed) */
   height: auto; }
 
+article img {
+  width: 200px;
+  height: auto;
+  float: left; }
+
 a {
   color: inherit; }
 
