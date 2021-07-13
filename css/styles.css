@@ -467,8 +467,7 @@ nav ul {
   display: none; }
 
 /* Photo by <a href="https://unsplash.com/@homajob?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Graham</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-/* Hero Image */
-.hero {
+main img {
   /* Takes up the entire width of its container. */
   width: 100%;
   /* Keeps the image's original ratio (not stretched/squashed) */
