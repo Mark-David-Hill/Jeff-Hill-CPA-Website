@@ -482,8 +482,14 @@ main img {
 a {
   color: inherit; }
 
-#phoneButton {
-  display: none; }
+#phoneButton button {
+  display: none;
+  margin: 4.5em 0 2em 4em;
+  padding: 1em;
+  color: white;
+  background-color: #306c9e;
+  border: #78b6e6 solid 2px;
+  border-radius: 10px; }
 
 .iframe-rwd {
   position: relative;

@@ -198,10 +198,19 @@ main img {
 
 a {color: inherit;}
 
-#phoneButton {
+#phoneButton button {
     display: none;
+    margin: 4.5em 0 2em 4em;
+    padding: 1em;
+    color: white;
+    background-color: $primaryColor;
+    border: $secondaryColor solid 2px;
+    border-radius: 10px;
 }
 
+// For iframe of google maps.
+// Example of doing it right:
+// https://www.kananicpa.com/contact
 .iframe-rwd {
     position: relative;
 padding-bottom: 65.25%;
