@@ -325,6 +325,15 @@ body {
   font-size: 16px;
   font-weight: 300; }
 
+.navigation-container a {
+  font-size: 20px;
+  color: white; }
+
+/* Stop the logo from being wider than the screen on smaller screens. */
+.navigation-container img {
+  max-width: 100%;
+  height: auto; }
+
 /* ///// */
 /* ///// grid rules */
 /* ///// */
@@ -402,14 +411,13 @@ main h1 {
 footer {
   color: white;
   background-color: #306c9e;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   /* margin-top: 20em; */ }
 
 footer h2 {
-  font-style: italic;
-  text-transform: uppercase;
   /* Note- no left/right margin here. */
-  margin: 1rem 0 .3rem 0; }
+  margin: 1rem 0 .3rem 0;
+  text-align: center; }
 
 /* Inserts content after floated items and prevents the container from collapsing. */
 .clearfix:after {
@@ -421,13 +429,13 @@ button#hamburgerBtn {
   /* Removes the border and background of the button */
   background: none;
   border: none;
-  color: #fff;
+  color: white;
   font-size: 2.4rem;
   cursor: pointer;
   padding: 0 30px 0 2vw; }
 
 nav {
-  background-color: #8fc0e6; }
+  background-color: #78b6e6; }
 
 nav ul {
   margin: 0;
@@ -460,22 +468,37 @@ nav ul {
 
 /* Photo by <a href="https://unsplash.com/@homajob?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Graham</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
 /* Hero Image */
-main img {
+.hero {
   /* Takes up the entire width of its container. */
   width: 100%;
   /* Keeps the image's original ratio (not stretched/squashed) */
   height: auto; }
 
-/* Stop the logo from being wider than the screen on smaller screens. */
-.navigation-container img {
-  max-width: 100%;
-  height: auto; }
+.text-wrap {
+  width: 200px;
+  height: auto;
+  float: left;
+  margin-right: 1.5em; }
 
 a {
   color: inherit; }
 
 #phoneButton {
   display: none; }
+
+.iframe-rwd {
+  position: relative;
+  padding-bottom: 65.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.iframe-rwd iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
@@ -492,6 +515,9 @@ a {
 
   .medium-6 {
     width: 50%; }
+
+  .medium-12 {
+    width: 100%; }
 
   /* don't display the hamburger button if not phone-size. */
   nav button {
@@ -512,6 +538,15 @@ a {
   /* Common for large size- 1200px or 1024px */
   .large-3 {
     width: 25%; }
+
+  .large-4 {
+    width: 33.3333333%; }
+
+  .large-6 {
+    width: 50%; }
+
+  .large-12 {
+    width: 100%; }
 
   /* Get nav menu items to line up with the logo above on the left side. */
   nav ul {
