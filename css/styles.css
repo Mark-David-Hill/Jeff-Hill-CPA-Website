@@ -483,8 +483,6 @@ a {
   color: inherit; }
 
 #phoneButton button {
-  display: none;
-  margin: 4.5em 0 2em 4em;
   padding: 1em;
   color: white;
   background-color: #306c9e;
