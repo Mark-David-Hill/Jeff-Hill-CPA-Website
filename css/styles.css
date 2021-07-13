@@ -468,15 +468,17 @@ nav ul {
 
 /* Photo by <a href="https://unsplash.com/@homajob?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Graham</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
 /* Hero Image */
-main img {
+.hero {
   /* Takes up the entire width of its container. */
   width: 100%;
   /* Keeps the image's original ratio (not stretched/squashed) */
   height: auto; }
 
-article img {
+.text-wrap {
   width: 200px;
-  height: auto; }
+  height: auto;
+  float: left;
+  margin-right: 1.5em; }
 
 a {
   color: inherit; }
