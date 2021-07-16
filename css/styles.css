@@ -529,8 +529,14 @@ p {
   header img {
     height: 100px; }
 
+  .medium-4 {
+    width: 33.3333333%; }
+
   .medium-6 {
     width: 50%; }
+
+  .medium-8 {
+    width: 66.6666667%; }
 
   .medium-12 {
     width: 100%; }
