@@ -523,9 +523,23 @@ p {
 form input, form textarea {
   width: 100%; }
 
+input[type="submit"] {
+  padding: 0.5em;
+  text-align: center;
+  border-style: none;
+  color: white;
+  background-color: #4e7aa6;
+  font-size: 1.3em;
+  border-radius: 10px;
+  margin-bottom: 2em; }
+
 .contact-info p {
   font-size: 1em;
   color: #306c9e; }
+
+.center-me {
+  margin: auto;
+  width: 150px; }
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {

@@ -250,12 +250,26 @@ form input, form textarea {
     width: 100%;
 }
 
+input[type="submit"] {
+    padding: 0.5em;
+    text-align: center;
+    border-style: none;
+    color: white;
+    background-color: $midColor;
+    font-size: 1.3em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
 .contact-info
 {
     p {
         font-size: 1em;
         color: $primaryColor;
     }
-    
-    
+}
+
+.center-me {
+    margin: auto;
+    width: 150px;
 }
