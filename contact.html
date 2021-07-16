@@ -54,12 +54,25 @@
             
             <div class="row limited">
                 <section class="column small-12">
-                    <form action="submit">
-                        First Name <input type="text">
-                        Last Name <input type="text">
-                        Telephone Number <input type="text">
-                        Email <input type="text">
-                        Message <textarea name="" id="" cols="30" rows="6"></textarea>
+                    <form action="submit" method="POST" enctype="application/x-www-form-urlencoded">
+                        <fieldset>
+                            <!-- <legend>Contact Information</legend> -->
+                        <label 
+                        
+                        for="nameField">Name:</label>
+                        <input type="text" name="customerName" id="nameField"><br>
+                        
+                        Phone: <input type="tel" name="customerPhone"><br>
+                        
+                        Email: <input type="email" name="customerEmail"><br>
+                        
+                        Message: <textarea tabindex="1" name="feedbackText" cols="40" rows="3"></textarea>
+                    </fieldset>
+                    <br>
+                        <input type="hidden" name="source" value="ContactForm">
+
+                        <input type="submit" value="Send Message">
+        
                     </form>
                 </section>
             </div> <!-- end row-->      
