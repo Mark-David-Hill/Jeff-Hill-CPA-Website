@@ -418,6 +418,9 @@ main h1 {
   font-weight: 700;
   color: #b00; }
 
+#line-break {
+  background-color: blue; }
+
 footer {
   color: white;
   background-color: #306c9e;
