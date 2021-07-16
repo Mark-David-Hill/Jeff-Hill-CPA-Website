@@ -246,6 +246,16 @@ p {
     line-height: 1.2em;
 }
 
-form input {
+form input, form textarea {
     width: 100%;
+}
+
+.contact-info
+{
+    p {
+        font-size: 1em;
+        color: $primaryColor;
+    }
+    
+    
 }
