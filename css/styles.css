@@ -520,6 +520,9 @@ p {
   font-size: 1.3em;
   line-height: 1.2em; }
 
+form input {
+  width: 100%; }
+
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
   /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
