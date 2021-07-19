@@ -577,8 +577,8 @@ input[type="submit"] {
   nav li {
     /* Arrange items left to right. */
     float: left;
-    /* 4 items, so 25% uses all the space. */
-    width: 25%; } }
+    /* 5 items, so 20% uses all the space. */
+    width: 20%; } }
 /* end of media query */
 /* Common for large size- 1200px or 1024px */
 @media only screen and (min-width: 1200px) {
