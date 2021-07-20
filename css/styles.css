@@ -498,6 +498,12 @@ main img {
 .service img {
   width: 500px; }
 
+.primary-color {
+  color: #306c9e; }
+
+hr {
+  margin: 1em 0 1em 0; }
+
 a {
   color: inherit; }
 
