@@ -425,7 +425,7 @@ footer {
   color: white;
   background-color: #306c9e;
   font-size: 0.8rem;
-  /* margin-top: 20em; */ }
+  margin-top: 1.5em; }
 
 footer h2 {
   /* Note- no left/right margin here. */
@@ -510,6 +510,13 @@ hr {
 a {
   color: inherit; }
 
+.standard-button button {
+  padding: 1em;
+  color: white;
+  background-color: #306c9e;
+  border: #78b6e6 solid 2px;
+  border-radius: 10px; }
+
 #phoneButton button {
   padding: 1em;
   color: white;
@@ -562,6 +569,19 @@ input[type="submit"] {
 .certifications img {
   width: 100%;
   height: auto; }
+
+.full-width {
+  width: 100%; }
+
+button {
+  font-size: 1.3em; }
+
+h2 {
+  font-size: 1.6em;
+  margin: 1em 0 0 0; }
+
+h3 {
+  font-size: 1.4em; }
 
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
