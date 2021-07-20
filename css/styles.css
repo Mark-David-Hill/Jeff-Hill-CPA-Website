@@ -498,6 +498,9 @@ main img {
 .service img {
   width: 500px; }
 
+iframe {
+  width: 100%; }
+
 .primary-color {
   color: #306c9e; }
 
