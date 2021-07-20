@@ -583,6 +583,9 @@ h2 {
 h3 {
   font-size: 1.4em; }
 
+.standard-button button:hover {
+  background-color: #295a83; }
+
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
   /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
