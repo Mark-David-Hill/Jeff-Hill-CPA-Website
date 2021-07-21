@@ -332,3 +332,11 @@ h3 {font-size: 1.4em;}
 .standard-button button:hover {
     background-color: rgb(41, 90, 131);  
 }
+
+ul li a{
+    list-style: none;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: $primaryColor;
+}

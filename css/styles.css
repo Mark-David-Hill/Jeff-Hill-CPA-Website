@@ -586,6 +586,13 @@ h3 {
 .standard-button button:hover {
   background-color: #295a83; }
 
+ul li a {
+  list-style: none;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-decoration: none;
+  color: #306c9e; }
+
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
   /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
