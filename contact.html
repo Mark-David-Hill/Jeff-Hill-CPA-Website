@@ -51,7 +51,7 @@
         
         <div class="row limited">
             <section class="column small-12">
-                <h1>Contact Us</h1>
+                <h1>Contact</h1>
             </section>
         </div> <!-- end row-->
 
@@ -83,43 +83,17 @@
                     <p>Monday-Friday: 8am-5pm,<br>or by appointment</p>
                 </section>
             </div>
+
+
             <div class="row limited">
+                <!--  -->
+                <!-- Form -->
+                <!--  -->
                 <section class="column small-12">
-                    <form action="submit" method="POST" enctype="application/x-www-form-urlencoded">
-                    <!-- Name Input -->
-                    <p>
-                        <label id="nameLabel" class="inputLabel" for="name-field">Name</label>
-                    </p>
-                    <p>
-                        <input type="text" required name="name" id="name-field">
-                    </p>
-                    <!-- Phone Input -->
-                    <p>
-                        <label id="phoneLabel" class="inputLabel" for="phone-field">Phone</label>
-                    </p>
-                    <p>
-                        <input type="text" required name="name" id="phone-field">
-                    </p>
-                    <!-- Phone Input -->
-                    <p>
-                        <label id="emailLabel" class="inputLabel" for="email-field">Email</label>
-                    </p>
-                    <p>
-                        <input type="text" required name="name" id="email-field">
-                    </p>
-                    
-                    <p>Message:</p>
-                    <p>
-                        <textarea tabindex="1" name="feedbackText" cols="100" rows="4"></textarea>
-                    </p>
-                    
-                    <input type="hidden" name="source" value="ContactForm">
-
-                    <div class="center-me">
-                        <input type="submit" value="Submit">
-                    </div>
-
-                    </form>
+                    <div class="cognito">
+                        <script src="https://www.cognitoforms.com/s/xKG2q-9x6kS9W1LkFrEiTQ"></script>
+                        <script>Cognito.load("forms", { id: "1" });</script>
+                        </div>
                 </section>
             </div> <!-- end row-->      
             
