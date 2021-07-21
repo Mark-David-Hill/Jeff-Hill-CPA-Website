@@ -599,6 +599,9 @@ button a {
 button {
   cursor: pointer; }
 
+a {
+  color: #306c9e; }
+
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
   /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
