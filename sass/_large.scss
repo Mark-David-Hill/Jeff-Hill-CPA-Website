@@ -11,3 +11,18 @@ nav ul {margin-left: 2vw;}
 nav li {width: auto;}
 /* Makes nav items smaller- don't need to be touched anymore. */
 nav a {padding: .7rem 1rem;}
+
+
+.no-large{display: none;}
+
+.large-only{display: inline-block;}
+
+#proadvisor-logo-large {
+    // width: 30%;
+    margin: 2em;
+    height: auto;
+}
+
+#aicpa-logo {
+    margin-bottom: 3em;
+}

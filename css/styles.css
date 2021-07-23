@@ -564,11 +564,19 @@ input[type="submit"] {
   width: 150px; }
 
 .certifications {
-  display: none; }
+  text-align: center; }
 
-.certifications img {
-  width: 100%;
+#aicpa-logo {
+  width: 40%;
+  height: auto;
+  margin-bottom: 1em; }
+
+#proadvisor-logo {
+  width: 30%;
   height: auto; }
+
+.large-only {
+  display: none; }
 
 .full-width {
   width: 100%; }
@@ -614,6 +622,9 @@ button {
 
   header img {
     height: 100px; }
+
+  .medium-3 {
+    width: 25%; }
 
   .medium-4 {
     width: 33.3333333%; }
@@ -666,7 +677,20 @@ button {
 
   /* Makes nav items smaller- don't need to be touched anymore. */
   nav a {
-    padding: .7rem 1rem; } }
+    padding: .7rem 1rem; }
+
+  .no-large {
+    display: none; }
+
+  .large-only {
+    display: inline-block; }
+
+  #proadvisor-logo-large {
+    margin: 2em;
+    height: auto; }
+
+  #aicpa-logo {
+    margin-bottom: 3em; } }
 /* end of media query */
 
 /*# sourceMappingURL=styles.css.map */

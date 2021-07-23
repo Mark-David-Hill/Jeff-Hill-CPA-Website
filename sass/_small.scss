@@ -305,13 +305,35 @@ input[type="submit"] {
 
 
 .certifications {
+    text-align: center;    
+}
+
+
+// 
+// Certification images /////////////////////
+// 
+#aicpa-logo {
+    width: 40%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+#proadvisor-logo {
+    width: 30%;
+    height: auto;
+}
+
+.large-only {
     display: none;
 }
 
-.certifications img {
-    width: 100%;
-    height: auto;
-}
+// #jeff-hill-logo {
+//     width: 30%;
+//     height: auto;
+//     margin: 0 0 10px 20px;
+// }
+
+// end of certification images ///////////////
 
 .full-width {
     width: 100%;
