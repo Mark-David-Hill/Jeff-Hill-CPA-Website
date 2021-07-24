@@ -610,6 +610,9 @@ button {
 .resources-image {
   margin-top: 1em; }
 
+.services li {
+  font-size: 1.1em; }
+
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
   /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
@@ -629,8 +632,14 @@ button {
   .medium-4 {
     width: 33.3333333%; }
 
+  .medium-5 {
+    width: 41.666666667%; }
+
   .medium-6 {
     width: 50%; }
+
+  .medium-7 {
+    width: 58.333333333%; }
 
   .medium-8 {
     width: 66.6666667%; }
