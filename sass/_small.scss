@@ -274,6 +274,10 @@ p {
     line-height: 1.2em;
 }
 
+p, h2, h3 {
+    padding: 0 0.5em;
+}
+
 form input, form textarea {
     width: 100%;
 }
