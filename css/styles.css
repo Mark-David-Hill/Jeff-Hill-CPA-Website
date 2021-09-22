@@ -597,6 +597,9 @@ button {
 .services li {
   font-size: 1.1em; }
 
+.nestedListContainer {
+  list-style-type: none; }
+
 /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
 @media only screen and (min-width: 768px) {
   /* Smallest screen we deal with is 320px. 768px is about the width of a phone screen turned sideways. */
