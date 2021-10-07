@@ -185,6 +185,13 @@ nav {
         text-align: center;
         text-decoration: none;
     }
+    #clientLogin {
+        // color: rgb(0, 0, 0);
+        background-color: $complementaryColor;
+    }
+    #clientLogin:hover {
+        background-color: $complementaryColorDark;
+    }
     /* Shows where the user currently is on the nav bar (wayfinding). */
     li.active {
         // Current page nav select color.

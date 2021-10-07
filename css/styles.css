@@ -459,6 +459,10 @@ nav {
     color: #eee;
     text-align: center;
     text-decoration: none; }
+  nav #clientLogin {
+    background-color: #f39237; }
+  nav #clientLogin:hover {
+    background-color: #c26f22; }
   nav li.active {
     background-color: #306c9e; }
   nav a:hover {
@@ -646,7 +650,7 @@ button {
     /* Arrange items left to right. */
     float: left;
     /* 5 items, so 20% uses all the space. */
-    width: 20%; }
+    width: 16.66666667%; }
 
   p, h2, h3 {
     padding: 0; } }
