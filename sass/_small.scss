@@ -395,3 +395,8 @@ button {
 .nestedListContainer {
     list-style-type: none;
 }
+
+/* Prevent zooming when double tapping buttons on mobile */
+button {
+    touch-action: manipulation;
+}
